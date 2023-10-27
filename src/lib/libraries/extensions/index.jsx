@@ -408,7 +408,7 @@ export const galleryLoading = {
             id="tw.extensionGallery.name"
         />
     ),
-    href: 'http://localhost:8000',
+    href: 'https://skymod-project.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -431,7 +431,7 @@ export const galleryMore = {
             id="tw.extensionGallery.name"
         />
     ),
-    href: 'http://localhost:8000',
+    href: 'https://skymod-project.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (
@@ -454,7 +454,7 @@ export const galleryError = {
             id="tw.extensionGallery.name"
         />
     ),
-    href: 'http://localhost:8000',
+    href: 'https://skymod-project.github.io/extensions/',
     extensionId: 'gallery',
     iconURL: galleryIcon,
     description: (

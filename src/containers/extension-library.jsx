@@ -36,7 +36,7 @@ const toLibraryItem = extension => {
 let cachedGallery = null;
 
 const fetchLibrary = async () => {
-    const res = await fetch('http://localhost:8000/generated-metadata/extensions-v0.json');
+    const res = await fetch('https://skymod-project.github.io/extensions/generated-metadata/extensions-v0.json');
     if (!res.ok) {
         throw new Error(`HTTP status ${res.status}`);
     }
@@ -45,8 +45,8 @@ const fetchLibrary = async () => {
         name: extension.name,
         description: extension.description,
         extensionId: extension.id,
-        extensionURL: `http://localhost:8000/${extension.slug}.js`,
-        iconURL: `http://localhost:8000/${extension.image || 'images/unknown.svg'}`,
+        extensionURL: `https://skymod-project.github.io/extensions/${extension.slug}.js`,
+        iconURL: `https://skymod-project.github.io/extensions/${extension.image || 'images/unknown.svg'}`,
         tags: [extension.tag],
         credits: [
             ...(extension.by || []),
@@ -65,9 +65,9 @@ const fetchLibrary = async () => {
             }
             return credit.name;
         }),
-        docsURI: extension.docs ? `http://localhost:8000/${extension.slug}` : null,
+        docsURI: extension.docs ? `https://skymod-project.github.io/extensions/${extension.slug}` : null,
         samples: extension.samples ? extension.samples.map(sample => ({
-            href: `${process.env.ROOT}editor?project_url=http://localhost:8000/samples/${encodeURIComponent(sample)}.sb3`,
+            href: `${process.env.ROOT}editor?project_url=https://skymod-project.github.io/extensions/samples/${encodeURIComponent(sample)}.sb3`,
             text: sample
         })) : null,
         incompatibleWithScratch: true,

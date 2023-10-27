@@ -909,16 +909,16 @@ class MenuBar extends React.Component {
                     <div className={styles.menuBarItem}>
                         <a
                             className={styles.feedbackLink}
-                            href="https://scratch.mit.edu/users/GarboMuffin/#comments"
+                            href="https://github.com/SkyMod-Project/skymod-project.github.io/issues"
                             rel="noopener noreferrer"
                             target="_blank"
                         >
                             {/* todo: icon */}
                             <Button className={styles.feedbackButton}>
                                 <FormattedMessage
-                                    defaultMessage="TurboWarp Feedback"
+                                    defaultMessage="SkyMod Feedback"
                                     description="Button to give feedback in the menu bar"
-                                    id="tw.feedbackButton"
+                                    id="sm.feedbackButton"
                                 />
                             </Button>
                         </a>

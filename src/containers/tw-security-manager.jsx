@@ -22,7 +22,7 @@ const manuallyTrustExtension = url => {
  */
 const isTrustedExtension = url => (
     // Always trust our official extension repostiory.
-    url.startsWith('https://extensions.turbowarp.org/') ||
+    url.startsWith('https://skymod-project.github.io/extensions/') ||
 
     // For development.
     url.startsWith('http://localhost:8000/') ||
