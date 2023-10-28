@@ -47,7 +47,7 @@ import styles from './interface.css';
 
 if (window.parent !== window) {
     // eslint-disable-next-line no-alert
-    alert('This page contains an invalid TurboWarp embed. Please read https://docs.turbowarp.org/embedding for instructions to create a working embed.');
+    alert('This page contains an invalid TurboWarp embed. Please read https://skymod-project.github.io/docs/embedding for instructions to create a working embed.');
     throw new Error('Invalid embed');
 }
 
@@ -127,21 +127,21 @@ const Footer = () => (
                         {/* Do not translate */}
                         {'TurboWarp Packager'}
                     </a>
-                    <a href="https://docs.turbowarp.org/embedding">
+                    <a href="https://skymod-project.github.io/docs/embedding">
                         <FormattedMessage
                             defaultMessage="Embedding"
                             description="Link in footer to embedding documentation for embedding link"
                             id="tw.footer.embed"
                         />
                     </a>
-                    <a href="https://docs.turbowarp.org/url-parameters">
+                    <a href="https://skymod-project.github.io/docs/url-parameters">
                         <FormattedMessage
                             defaultMessage="URL Parameters"
                             description="Link in footer to URL parameters documentation"
                             id="tw.footer.parameters"
                         />
                     </a>
-                    <a href="https://docs.turbowarp.org/">
+                    <a href="https://skymod-project.github.io/docs/">
                         <FormattedMessage
                             defaultMessage="Documentation"
                             description="Link in footer to additional documentation"
@@ -273,11 +273,11 @@ class Interface extends React.Component {
                                             values={{
                                                 link: (
                                                     <a
-                                                        href="https://docs.turbowarp.org/unshared-projects"
+                                                        href="https://skymod-project.github.io/docs/unshared-projects"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                     >
-                                                        {'https://docs.turbowarp.org/unshared-projects'}
+                                                        {'https://skymod-project.github.io/docs/unshared-projects'}
                                                     </a>
                                                 )
                                             }}

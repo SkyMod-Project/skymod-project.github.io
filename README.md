@@ -2,7 +2,7 @@ scratch-gui modified for use in [SkyMod](https://skymod-project.github.io/)
 
 <!-- ## Setup
 
-See https://docs.turbowarp.org/development/getting-started to setup the complete TurboWarp environment.
+See https://skymod-project.github.io/docs/development/getting-started to setup the complete TurboWarp environment.
 
 If you just want to play with the GUI then it's the same process as upstream scratch-gui. -->
 
