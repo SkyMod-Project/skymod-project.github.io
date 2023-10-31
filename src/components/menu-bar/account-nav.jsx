@@ -71,11 +71,11 @@ const AccountNavComponent = ({
                     id="gui.accountMenu.profile"
                 />
             </MenuItemContainer>
-            <MenuItemContainer href="/mystuff/">
+            <MenuItemContainer href="/projects/">
                 <FormattedMessage
-                    defaultMessage="My Stuff"
+                    defaultMessage="Projects"
                     description="Text to link to list of my projects, in the account navigation menu"
-                    id="gui.accountMenu.myStuff"
+                    id="gui.accountMenu.projects"
                 />
             </MenuItemContainer>
             {isEducator ? (
@@ -96,11 +96,11 @@ const AccountNavComponent = ({
                     />
                 </MenuItemContainer>
             ) : null}
-            <MenuItemContainer href="/accounts/settings/">
+            <MenuItemContainer href="/settings/">
                 <FormattedMessage
-                    defaultMessage="Account settings"
-                    description="Text to link to my account settings, in the account navigation menu"
-                    id="gui.accountMenu.accountSettings"
+                    defaultMessage="Settings"
+                    description="Text to link to my settings, in the account navigation menu"
+                    id="gui.accountMenu.settings"
                 />
             </MenuItemContainer>
             <MenuSection>

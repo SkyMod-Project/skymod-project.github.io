@@ -17,6 +17,7 @@
     color: $ui-white;
     font-size: .75rem;
     font-weight: normal;
+    gap: 0.5rem;
 }
 
 [dir="ltr"] .user-info .avatar {
